@@ -6,7 +6,7 @@ const llm = new ChatGoogleGenerativeAI({
     model: "gemini-1.5-pro",
     temperature: 0,
     maxRetries: 2,
-    apiKey: "AIzaSyAkllTeljLyvhWja2rMfdcnueajZHGg1I4",
+    apiKey: "",
   // other params...
 });
 const aiMsg = await llm.invoke([
