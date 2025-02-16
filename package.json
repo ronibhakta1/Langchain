@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@langchain/google-genai": "^0.1.6"
+  }
+}
